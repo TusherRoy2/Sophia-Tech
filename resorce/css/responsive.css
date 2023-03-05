@@ -1,0 +1,433 @@
+@media (max-width:1199px){
+    header nav .menu > a {
+        display: none;
+    }
+}
+
+@media (max-width:991px){
+    html {
+        font-size: 56.5%;
+    }
+    
+    header nav .menu ul li a.active{
+        color:#fff !important
+    } 
+    .menu-icon{
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: end;
+        -ms-flex-pack: end;
+        justify-content: end;
+    }
+    .menu-icon i{
+        font-size: 2rem;
+    }
+    .menu-icon .fa-times{
+        display: none;
+    }
+    header nav .menu{
+        display: none;
+    }
+    header nav .menu ul{
+        display: block;
+        position: absolute;
+        top:0;
+        left:0;
+        background: #000;
+        height:100vh;
+        text-align: left;
+        padding: 0 5rem 0 3rem;
+        z-index: 11;
+    }
+    header nav .menu ul li:first-child{
+        margin-top: 5rem;
+    }
+    header nav .menu ul li{
+        margin-bottom: 2rem;
+    }
+    header nav .menu button{
+        height: 3.8rem;
+        position: absolute;
+        top:43%;
+        left:3.5rem;
+        z-index: 11;
+    }
+    .social-icon{
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        position: absolute;
+        bottom:17rem;
+        left:2.5rem;
+        z-index: 11;
+    }
+    .social-icon i{
+        color:#2c5aff;
+        font-size: 2rem;
+        margin-right: 1rem;
+        width:3rem;
+        height: 3rem;
+        background: #fff;
+        border-radius: 50%;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+        -webkit-transition: .2s;
+        -o-transition: .2s;
+        transition: .2s;
+    }
+    .social-icon i:hover{
+        -webkit-transform: rotate(360deg);
+        -ms-transform: rotate(360deg);
+        transform: rotate(360deg);
+    }
+
+    /* =-=-=-=-=-=-=-=-=-=-=-=-=-=-= */
+    /* HOW_WE_WORK */
+
+    .workHeaderText h1 {
+        font-size: 4.6rem;
+    }
+    .workHeaderText p {
+        font-size: 2.6rem;
+    }
+    /*  */
+    header nav .menu ul li .subMenu ul {
+        display: block;
+        width: 18rem;
+        height: 17rem;
+        position: absolute;
+        top: -2rem;
+        left: 19.2rem;
+        background: #ffffff;
+        -webkit-box-shadow: 0 0 1.1rem #c6c6c6;
+        box-shadow: 0 0 1.1rem #c6c6c6;
+        padding: 0 1rem 0 1rem;
+        border-radius: .5rem;
+        z-index: 11;
+    }
+    
+    header nav .menu ul li .subMenu::after {
+        content: '';
+        display: block;
+        width: 7.4rem;
+        height: 15rem;
+        background: transparent;
+        position: absolute;
+        top: -2rem;
+        left: 11.8rem;
+        z-index: 11;
+    }
+    header nav .menu ul li .subMenu::before {
+        content: '';
+        display: block;
+        width: 1.5rem;
+        height: 1.5rem;
+        background: #fff;
+        position: absolute;
+        top: .7rem;
+        left: 14rem;
+        z-index: 11;
+        -webkit-transform: rotate(135deg);
+        -ms-transform: rotate(135deg);
+        transform: rotate(135deg);
+    }
+    header nav .menu ul li .subMenu ul li:first-child {
+        margin-top: 2.5rem;
+    }
+    /*  */
+
+    /* =-=-=-=-=-=-=-=-=-=-=-=-=-=-= */
+    /* HOW_WE_WORK2 */
+
+    .fiveitem .item {
+        display: block;
+        margin-bottom: 5rem;
+    }
+    .fiveitem .item .itemImg img {
+        width: 13rem;
+        height: 13rem;
+        margin: 0 auto 2rem;
+    }
+    .fiveitem .item .itemText h4 {
+        font-size: 3.8rem;
+    }
+    .fiveitem .item .itemText p {
+        font-size: 2.1rem;
+    }
+
+    /* =-=-=-=-=-=-=-=-=-=-=-=-=-=-= */
+    /* HOW_WE_WORK3 */
+
+    .howThree .owl-carousel .owl-item img {
+        display: block;
+        width: 18.5rem;
+        height: 18.5rem;
+    }
+    .UI_UX h3 {
+        font-size: 4.5rem;
+    }
+    .UI_UX p {
+        font-size: 2.5rem;
+    }
+    .howThree .owl-nav button.owl-next {
+        top: 65%;
+        right: 0;
+    }
+    .howThree .owl-nav button.owl-prev {
+        top: 65%;
+        left: 0;
+    }
+
+    /* =-=-=-=-=-=-=-=-=-=-=-=-=-=-= */
+    /* HOW_WE_WORK4 */
+
+    header .mtItem .mtImg img {
+        width: 28rem;
+        height: 60rem;
+    }
+    header .mtItem .mtText h3 {
+        font-size: 4.5rem;
+    }
+    header .mtItem .mtText p {
+        font-size: 2.5rem;
+    }
+}
+
+@media (max-width:768px){
+    html {
+        font-size: 50.5%;
+    }
+    /* =-=-=-=-=-=-=-=-=-=-=-=-=-=-= */
+    /* HOW_WE_WORK4 */
+    header .mtItem .mtImg img {
+        width: 26rem;
+        height: auto;
+    }
+    header .mtItem .mtText h3 {
+        font-size: 4.2rem;
+    }
+    header .mtItem .mtText p {
+        font-size: 2.2rem;
+    }
+}
+
+@media (max-width:680px){
+    html {
+        font-size: 47.5%;
+    }
+    header nav .menu ul li a {
+        font-size: 2rem;
+    }
+    header nav .menu ul li:first-child{
+        margin-top: 7rem;
+    }
+    header nav .menu ul li {
+        margin-bottom: 4rem;
+    }
+    header nav .menu button {
+        top: 48%;
+        left: 5.5rem;
+    }
+    .social-icon{
+        bottom:17rem;
+        left:4.5rem;
+    }
+
+    /* =-=-=-=-=-=-=-=-=-=-=-=-=-=-= */
+    /* HOW_WE_WORK */
+
+    header nav .menu ul li .subMenu ul {
+        width: 21rem;
+        height: 17rem;
+        position: absolute;
+        top: -2rem;
+        left: 21.6rem;
+        padding: 2rem;
+    }
+    header nav .menu ul li .subMenu ul li{
+        margin-bottom: 1rem;
+    }
+    header nav .menu ul li .subMenu ul li:first-child {
+        margin-top: 1rem;
+      }
+    header nav .menu ul li .subMenu::before {
+        top: 0.7rem;
+        left: 17rem;
+    }
+    header nav .menu ul li .subMenu::after {
+        position: absolute;
+        left: 14.8rem;
+        width: 7rem;
+    }
+    .workHeaderText h1 {
+        font-size: 4.4rem;
+    }
+
+    /* =-=-=-=-=-=-=-=-=-=-=-=-=-=-= */
+    /* HOW_WE_WORK4 */
+    header .mtItem .mtImg img {
+        width: 24rem;
+        height: auto;
+    }
+    header .mtItem .mtText h3 {
+        font-size: 4rem;
+    }
+    header .mtItem .mtText p {
+        font-size: 2rem;
+    }
+}
+
+@media (max-width:580px){
+    html {
+        font-size: 42.5%;
+    }
+
+    header {
+        margin-top: 2.5rem;
+    }
+    header nav .logo {
+        width: 15rem;
+        height: 3.5rem;
+    }
+    header nav .menu button {
+        height: 4rem;
+        position: absolute;
+        top: 46%;
+        left: 5.5rem;
+        z-index: 11;
+    }
+    .team {
+        margin-bottom: 6rem;
+    }
+    header p {
+        margin-bottom: 4rem;
+    }
+
+    /* =-=-=-=-=-=-=-=-=-=-=-=-=-=-= */
+    /* HOW_WE_WORK */
+
+    .workHeaderText h1 {
+        font-size: 4rem;
+    }
+    .workHeaderText p {
+        font-size: 2.3rem;
+    }
+
+    /* =-=-=-=-=-=-=-=-=-=-=-=-=-=-= */
+    /* HOW_WE_WORK4 */
+
+    header .mtItem .mtImg {
+        width: 34%;
+        height: auto;
+    }
+}
+
+@media (max-width:480px){
+    header nav .logo {
+        width: 13.5rem;
+        height: 2.6rem;
+    }
+
+    /* =-=-=-=-=-=-=-=-=-=-=-=-=-=-= */
+    /* HOW_WE_WORK */
+
+    .workHeaderText h1 {
+        font-size: 3.4rem;
+    }
+
+    /* =-=-=-=-=-=-=-=-=-=-=-=-=-=-= */
+    /* HOW_WE_WORK2 */
+    .fiveitem .item .itemText h4 {
+        font-size: 3.4rem;
+    }
+    .fiveitem .item .itemText p {
+        font-size: 1.8rem;
+    }
+    .fiveitem .item .itemImg {
+        margin: 0 2rem ;
+    }
+
+    /* =-=-=-=-=-=-=-=-=-=-=-=-=-=-= */
+    /* HOW_WE_WORK3 */
+
+    .UI_UX h3 {
+        font-size: 4rem;
+    }
+    .UI_UX p {
+        font-size: 2rem;
+    }
+
+    /* =-=-=-=-=-=-=-=-=-=-=-=-=-=-= */
+    /* HOW_WE_WORK4 */
+
+    .mobileText {
+        width: 95%;
+        margin: auto;
+    }
+    header .mtItem .mtImg img {
+        width: 19rem;
+        height: auto;
+    }
+    header .mtItem .mtText h3 {
+        font-size: 3.8rem;
+    }
+    header .mtItem .mtText p {
+        font-size: 1.8rem;
+    }
+}
+
+@media (max-width:380px){
+    /* =-=-=-=-=-=-=-=-=-=-=-=-=-=-= */
+    /* HOW_WE_WORK */
+
+    .workHeaderText h1 {
+        font-size: 3.1rem;
+    }
+    .workHeaderText p {
+        font-size: 2.1rem;
+    }
+
+    /* =-=-=-=-=-=-=-=-=-=-=-=-=-=-= */
+    /* HOW_WE_WORK2 */
+
+    .fiveitem .item .itemImg img {
+        width: 10rem;
+        height: 10rem;
+    }
+    .fiveitem .item .itemText h4 {
+        font-size: 3.2rem;
+    }
+    .fiveitem .item .itemText p {
+        font-size: 1.5rem;
+    }
+
+    /* =-=-=-=-=-=-=-=-=-=-=-=-=-=-= */
+    /* HOW_WE_WORK3 */
+
+    .UI_UX p {
+        font-size: 1.8rem;
+        line-height: 1.2;
+    }
+
+    /* =-=-=-=-=-=-=-=-=-=-=-=-=-=-= */
+    /* HOW_WE_WORK4 */
+
+    header .mtItem .mtImg img {
+        width: 16rem;
+        height: auto;
+    }
+    header .mtItem .mtText h3 {
+        font-size: 3.5rem;
+    }
+    header .mtItem .mtText p {
+        font-size: 1.5rem;
+    }
+}
